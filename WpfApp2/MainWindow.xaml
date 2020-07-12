@@ -16,7 +16,7 @@
             <Button Content="释放快捷键" Margin="5" Height="30" Click="Button_Click_1"/>
         </StackPanel>
         
-        <TextBox Grid.Row="1" x:Name="tb1">
+        <TextBox Grid.Row="1" x:Name="tb1" TextWrapping="Wrap">
             
         </TextBox>
     </Grid>

@@ -40,12 +40,14 @@ namespace WpfApp2
         {
             //注册快捷键
             RegisterHotKey();
+            tb1.Text += "快捷键Q和Q已被注册";
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             //释放快捷键
             UnregisterHotKey();
+            tb1.Text += "快捷键Q和Q已被释放";
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
